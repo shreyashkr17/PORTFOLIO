@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 3px 3px;
+    padding: 7px 7px;
+}
+body{
+    background-color: rgb(178, 243, 221);
+}
+
+header{
+    width: 96vw;
+    height: 12vh;
+    background-color: aqua;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin: 0;
+}
+.navhor{
+    width: 1455px;
+    padding-top: 0px;
+}
+.navhor ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.navhor ul li{
+    font-family: 'Anton', sans-serif;
+    font-size: 27px;
+}
+.navhor ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navhor ul li a:hover{
+    background-color: blue;
+    color: yellow;
+    border-radius: 15px;
+}
+.welcome{
+    margin-top: 12px;
+    font-family: 'Viga', sans-serif;
+    text-decoration:underline;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.welcome h1:hover{
+    background-color: chartreuse;
+    color: rgb(236, 25, 10);
+}
+.profileimg{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    background-color: chartreuse;
+    border: 5px solid green;
+    border-radius: 40px;
+    margin-top: 31px;
+    margin-left: 90px;
+
+}
+.profileimg img{
+    width: 19vw;
+    border: 5px solid green ;
+    border-radius: 35px;
+}
+.welcome h1{
+    display: flex;
+    flex-direction: row;
+    align-content:center ;
+    justify-content: center;
+    width: 916px;
+    height: 96px;   
+    padding-top: 93px;
+    font-size: 50px;
+    word-spacing:21px;
+}
+.welcome h1:hover{
+    font-size: 55px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 100px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.n2{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    word-spacing: 26px;
+    width: 584px;
+    margin-left: 31px;
+    margin-top: 19px;
+    color: rgb(157, 71, 238);
+}
+.n2:hover{
+    font-size: 49px;
+    width: 600px;
+    color:rgb(90, 90, 219);
+}
+.portimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.linkedin img{
+    width: 50px;
+}
+.gamillogo{
+    width: 108px;
+}
+.gmaillogo img{
+    width: 92px;
+}
+.fb img{
+    width: 51px;
+}
+.linkedin img:hover{
+    width: 60px;
+}
+.gmaillogo img:hover{
+    width: 102px ;
+}
+.fb img:hover{
+    width: 61px;
+}
+
+
+/* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me *//* About me */
+
+.clglogo{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+.iiitbhimg{
+    width: 414px;
+    height: 416px;
+    margin-top: 55px;
+    margin-left: 63px;
+}
+.clglogo img:hover{
+    width: 430px;
+    height: 432px;
+}
+.about{
+    font-size: 34px;
+    width: 650px;
+    word-spacing: 19px;
+    word-break: break-word;
+    line-height: 1.4;
+    border-right-width: 0px;
+    padding-right: 2px;
+    margin-left: 157px;
+    font-family: 'Playball', cursive;
+    font-size: 34px;
+    padding-left: 119px;
+    margin-top: 25px;
+}
+
+
+
+
+/* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST *//* INTERREST */
+
+
+.intrst{
+    font-family: 'Fugaz One', cursive;
+    word-spacing: 10px;
+    font-size: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+    margin: 32px 0px;
+    text-decoration: underline ;
+}
+.intrst h2:hover{
+    font-size: 47px;
+    color:rgb(247, 4, 154) ;
+}
+.coding{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 137px;
+}
+.coding ol{
+    list-style-type: disc;
+    width: 619px;
+    height: 63px;  
+    margin-top: 35px;
+}
+.coding ol li{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    word-spacing: 13px;
+    width: 661px;
+}
+.cplus img{
+    width: 100px;
+    margin-left: 208px;
+}
+.cplus img:hover{
+    width: 110px;
+    box-shadow: 5px 5px 5px black;
+}
+.webd{
+    display: flex;
+    flex-direction: row;
+
+}
+.webd ol{
+    list-style-type: disc;
+    margin-top: 68px;
+}
+.webd ol li{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    width: 617px;
+    word-spacing: 13px;
+}
+.trio img{
+    width: 291px;
+    height: 253px;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+.trio img:hover{
+    width: 300px;
+    height: 262px;
+    box-shadow: 5px 5px 5px black;
+}
+.database{
+    display: flex;
+    flex-direction: row;
+
+}
+.databse ol{
+    
+    margin-top: 38px;
+}
+.database ol li{
+    list-style-type: disc;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    word-spacing: 13px;
+    width: 617px;
+}
+.sql img{
+    width: 159px;
+}
+.sql img:hover{
+    width: 170px;
+    box-shadow: 5px 5px 5px black;
+}
+.mongodb img{
+    width: 283px;
+    margin-left: 26px;
+    margin-top: 45px;
+}
+.mongodb img:hover{
+    width: 290px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+/* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION */
+
+.ongoing1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 22px;
+}
+.ongoing1 h1{
+    font-size: 37px;
+    text-decoration: underline;
+    font-family: 'Audiowide', cursive;
+}
+.ongoing1 h1:hover{
+    font-size: 40px;
+    color: rgb(255, 40, 40);
+}
+.ongoing {
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-content: center;
+}
+.ongoing ol{
+    width: 657px;
+    height: 310px;
+    
+}
+.ongoing ol li{
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+}
+.achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.achievements h1{
+    font-size: 37px;
+    text-decoration: underline;
+    font-family: 'Audiowide', cursive;
+}
+.achievements h1:hover{
+    font-size:40px;
+    color: rgb(255, 40, 40);
+}
+.aboutachieve{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.aboutachieve ol{
+    height: 295px;
+}
+.aboutachieve ol li{
+    list-style: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+}
+.certify{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.certify h1{
+    font-size: 37px;
+    text-decoration: underline;
+    font-family: 'Audiowide', cursive;
+}
+.certify h1:hover{
+    font-size: 40px;
+    color: rgb(255, 40, 40);;
+}
+.certifyimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.certifyimg img{
+    width: 404px;
+    height: 273px;
+}
+.certifyimg img:hover{
+    width:415px;
+    height: 284px;
+    box-shadow: 8px 8px 5px black;
+}

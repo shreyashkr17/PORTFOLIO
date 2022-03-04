@@ -8,6 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 *{
     margin: 3px 3px;
     padding: 7px 7px;
@@ -378,4 +380,45 @@ header{
     width:415px;
     height: 284px;
     box-shadow: 8px 8px 5px black;
+}
+
+
+
+/* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS *//* PROJECTS */
+
+.projectheader{
+    font-family: 'Yeseva One', cursive;
+    word-spacing: 10px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+    margin: 32px 0px;
+    text-decoration: underline ;
+}
+.projectheader h1:hover{
+    font-size: 47px;
+    color:rgb(235, 75, 27) ;
+}
+.projectimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+}
+.portfolioimg{
+    width: 697px;
+    box-shadow: 4px 4px 4px 4px rgb(4, 121, 255);
+}
+.portfolioimg:hover{
+    width: 720px;
+    box-shadow: 4px 4px 4px 4px rgb(255, 196, 0);
+}
+.definition1 h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+    font-family: 'Alice', serif;
 }

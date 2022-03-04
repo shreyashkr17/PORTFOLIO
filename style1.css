@@ -287,6 +287,38 @@ header{
     width: 290px;
     box-shadow: 5px 5px 5px black;
 }
+.vcs{
+    display: flex;
+    flex-direction: row;
+}
+.vcs ol{
+    margin-top: 38px;
+}
+.vcs ol li{
+    list-style-type: disc;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    word-spacing: 13px;
+    width: 617px;
+}
+.git img{
+    width: 159px;
+    margin-top: 28px;
+    margin-right: 29px;
+}
+.git img:hover{
+    width: 170px;
+    box-shadow: 5px 5px 5px black;
+}
+.github img{ 
+    width: 116px;
+    margin-left: 26px;
+    margin-top: 19px;
+}
+.github img:hover{
+    width: 125px;
+    box-shadow: 5px 5px 5px black;
+}
 
 
 /* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION *//* ACHIEVEMENT AND CERTIFICATION */

@@ -19,6 +19,9 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+        <div class="time"><span id="time"></span></div>
+    </div>
     <div class="profileimg">
         <img src="./istockphoto-1300845620-612x612.jpg" alt="">
         <div class="welcome">
@@ -39,5 +42,25 @@
             <a href="https://www.facebook.com/profile.php?id=100075374511352"><img src="./fb.png" alt=""></a>
         </div>
     </div>
+    <script>
+        let x;
+        let hours;
+        let minutes;
+        let seconds;
+        let ampm;
+        setInterval(() => {
+            x=new Date();
+            hours=x.getHours();
+            minutes=x.getMinutes();
+            seconds=x.getSeconds();
+            if(hours>=12){
+                ampm="PM";
+            }else{
+                ampm="AM"
+            }
+            time=hours+" : "+minutes+" : "+seconds+" "+ampm;
+            document.getElementById('time').innerHTML=time;
+        }, 1000);
+    </script>
 </body>
 </html>
